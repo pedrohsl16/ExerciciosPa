@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        salariofixo=prompt("Seu salario fixo")
+        vendas=prompt("valor das suas vendas")
+        if (vendas<=1500) 
+        {
+            comissao=vendas*0.3
+            salariototal=parseFloat(salariofixo)+parseFloat(comissao)
+            alert("seu salario total e "+salariototal)
+        }
+        else
+        {
+            comissao1=vendas*0.3
+            comissao2=(vendas-1500)*0.5
+            salariototal=parseFloat(comissao1)+parseFloat(comissao2)+salariofixo
+            alert("seu salario total e "+salariototal)
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
